@@ -1,0 +1,177 @@
+#+TITLE: Videos
+#+STARTUP: showall
+* Videotutorials
+** Introduction to Org Capture                                  :org_capture:
+   :PROPERTIES:
+   :LEVEL:    normal
+   :LANGUAGE: english
+   :RATING:   10/10
+   :URL:  https://www.youtube.com/watch?v=qCdScs4YO8k
+   :AUTHOR: Protesilaos Stavrou
+   :YEAR-PUBLICATION: 2020
+   :END:
+** Using Emacs23 Capture                                        :org_capture:
+   :PROPERTIES:
+   :LEVEL:    normal
+   :LANGUAGE: english
+   :RATING:   6/10
+   :URL:      https://www.youtube.com/watch?v=-wPfxuxIfeU
+   :AUTHOR:   Mike Zamansky
+   :YEAR-PUBLICATION: 2016
+   :END:
+** Organize your life with Org mode                                :org_mode:
+   :PROPERTIES:
+   :LEVEL:    normal
+   :LANGUAGE: english
+   :RATING:   10/10
+   :URL:      https://www.youtube.com/watch?v=PNE-mgkZ6HM
+   :AUTHOR:   System Crafters
+   :YEAR-PUBLICATION: 2021
+   :END:
+** Keeping a Journal in org mode                           :org_mode:journal:
+   :PROPERTIES:
+   :LEVEL:    easy
+   :LANGUAGE: english
+   :RATING:   5/10
+   :URL:      https://www.youtube.com/watch?v=2pJESOo-z40
+   :AUTHOR:   Chris Maiorana
+   :YEAR-PUBLICATION: 2021
+   :END:
+** The first capture template                                   :org_capture:
+   :PROPERTIES:
+   :LEVEL:    normal
+   :LANGUAGE: english
+   :RATING:   5/10
+   :URL:      https://www.youtube.com/watch?v=Af4NVJbNAB4
+   :AUTHOR:   Rainer Konig
+   :YEAR-PUBLICATION: 2016
+   :END:
+** Org Capture on GNU Emacs                                     :org_capture:
+   :PROPERTIES:
+   :LEVEL:    easy
+   :LANGUAGE: english
+   :RATING:   10/10
+   :URL:      https://www.youtube.com/watch?v=s69Akwqs7Ww
+   :AUTHOR:   suprhst
+   :YEAR-PUBLICATION: 2022
+   :END:
+** Custom Org agenda                                             :org_agenda:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.youtube.com/watch?v=UqtBXrzXPgQ
+  :AUTHOR: Protesilaos Stavrou
+  :YEAR-PUBLICATION: 2022
+  :END:
+** SOMEDAY Start using Org-Roam                                    :org_roam:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://www.youtube.com/watch?v=KlYctaKMixA
+  :AUTHOR: Chris Maiorana
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Org Mode time and Task tools                              :org_mode:tasks:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://youtu.be/zqAYHWv36X0?
+  :AUTHOR: Jake B
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2021
+  :END:
+** TODO Getting started with eglot using golang                :eglot:golang:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.youtube.com/watch?v=7Cgq-5oGdpc
+  :AUTHOR: 3Max
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Priorities for Tasks                                 :org_mode:priorities:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.youtube.com/watch?v=WSF4EgQqa3Q
+  :AUTHOR: Zaiste Programming
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2019
+  :END:
+** Getting Organized with Tasks                              :org_mode:tasks:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 8/10
+  :URL: https://www.youtube.com/watch?v=DxygfqLrFSU
+  :AUTHOR: Zaiste Programming
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2019
+  :END:
+** Marking Tasks with Tags                                    :org_mode:tags:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 8/10
+  :URL: https://www.youtube.com/watch?v=FJq__bBi0nI&list=TLPQMDUxMDIwMjMgfpaebT3GUA
+  :AUTHOR: Zaiste Programming
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2019
+  :END:
+** Archive a task                                   :org_mode:task:archive:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.youtube.com/watch?v=kimOYnOhZD4
+  :AUTHOR: Blackberry Boy
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2020
+  :END:
+* Conferences / Talks
+** What I'd like to see in Emacs                                      :emacs:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.youtube.com/watch?v=vEpk2ZTqJu4
+  :AUTHOR: Richard M. Stallman
+  :DURATION: 15-30 minutes
+  :YEAR-PUBLICATION: 2022
+  :END:
+** Org Mode as a system for note-taking and project planning       :org_mode:
+  :PROPERTIES:
+  :LEVEL: easy
+  :LANGUAGE: english
+  :RATING: 4/10
+  :URL: https://www.youtube.com/watch?v=oJTwQvgfgMM
+  :AUTHOR: Google TechTalks
+  :DURATION: 30-60 minutes
+  :YEAR-PUBLICATION: 2008
+  :END:
+* Overviews
+** SOMEDAY What's new in Emacs 29?                           :emacs:features:
+  :PROPERTIES:
+  :LEVEL: normal
+  :LANGUAGE: english
+  :RATING: 8/10
+  :URL: https://www.youtube.com/watch?v=cdeq1Zbndog
+  :AUTHOR: Emacs Elements
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2023
+  :END:
+** SOMEDAY What's new in Emacs 30?                           :emacs:features:
+  :PROPERTIES:
+  :LEVEL: normal
+  :LANGUAGE: english
+  :RATING: 8/10
+  :URL: https://www.youtube.com/watch?v=Bm_jA0m17ko
+  :AUTHOR: Emacs Elements
+  :DURATION: 1-15 minutes
+  :YEAR-PUBLICATION: 2023
+  :END:

@@ -1,0 +1,19 @@
+#+TITLE: Courses
+* Emacs
+  :PROPERTIES:
+  :PLAYLIST: https://www.youtube.com/watch?v=5s8NoZNRjuo&list=PLcL0uqeFwdLfgPUnzgtwIEnH_MhNQ7E9u
+  :AUTHOR: suprhst
+  :LANGUAGE: english
+  :YEAR-PUBLISHED: 2021
+  :END:
+* Courses
+** Emacs from Scratch                                               :emacs:
+   :PROPERTIES:
+   :LEVEL: easy
+   :LANGUAGE: english
+   :RATING: 6/10
+   :SOURCE: [[non-official]]
+   :URL: https://www.youtube.com/watch?v=zkfndJuDzsA&list=PLlONLmJCfHToFfk1WgTOwZMfIr062jIN9
+   :AUTHOR: Ixsameer
+   :YEAR-PUBLICATION: 2022
+   :END:

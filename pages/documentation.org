@@ -1,0 +1,129 @@
+#+TITLE: Documentation
+* Official Documentation
+** Sincronizar cambios de la configuración del Spacemacs  :dotfile:spacemacs:
+  :PROPERTIES:
+  :SOURCE: official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://develop.spacemacs.org/doc/DOCUMENTATION.html#synchronization-of-dotfile-changes
+  :AUTHOR: spacemacs
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Extracting Source Code from Code Blocks    :org_mode:literate_programming:
+  :PROPERTIES:
+  :SOURCE: official
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://orgmode.org/org.html#Extracting-Source-Code
+  :AUTHOR: orgmode
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Using Header Arguments                                        :org_mode:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://orgmode.org/manual/Using-Header-Arguments.html#Header-arguments-in-Org-mode-properties
+  :AUTHOR: orgmode
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Capture templates                           :org_mode:capture_templates:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 4/10
+  :URL: https://orgmode.org/manual/Capture-templates.html
+  :AUTHOR: orgmode
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Archiving                                           :org_mode:archiving:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 4/10
+  :URL: https://orgmode.org/guide/Archiving.html
+  :AUTHOR: orgmode
+  :YEAR-PUBLICATION: 2023
+  :END:
+* Non-Official Documentation
+** Intro to Literate Programming            :org_mode:literate_programming:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://howardism.org/Technical/Emacs/literate-programming-tutorial.html
+  :AUTHOR: Howard Abrams
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Headers arguments with Org Mode                          :org_mode:tangle:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://org-babel.readthedocs.io/en/latest/header-args/
+  :AUTHOR: fniessen
+  :YEAR-PUBLICATION: 2023
+  :END:
+** Tangling Multiple Org Files                            :org_mode:tangle:literate_programming:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://necromuralist.github.io/posts/tangling-multiple-org-files/
+  :AUTHOR: necromuralist
+  :YEAR-PUBLICATION: 2022
+  :END:
+** Org Capture Templates                             :org_capture_template:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://emacsdocs.org/docs/org/Capture-templates
+  :AUTHOR: emacsdocs
+  :YEAR-PUBLICATION: 2021
+  :END:
+** TODO Org Mode Capture templates and Time Tracking :org_mode:capture_templates:time_tracking:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://takeonrules.com/2022/09/06/org-mode-capture-templates-and-time-tracking/
+  :AUTHOR: Jeremy Friesen
+  :YEAR-PUBLICATION: 2022
+  :END:
+** SOMEDAY Beautifying the Tab Bar                            :emacs:tab_bar:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: http://www.gonsie.com/blorg/tab-bar.html
+  :AUTHOR: Gonsie
+  :YEAR-PUBLICATION: 2022
+  :END:
+** SOMEDAY Using Emacs tab-bar-mode                           :emacs:tab_bar:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://mmk2410.org/2022/02/11/using-emacs-tab-bar-mode/
+  :AUTHOR: Marcel Kapfer
+  :YEAR-PUBLICATION: 2022
+  :END:
+** SOMEDAY Add Numbers to Emacs Tab Bar Titles                :emacs:tab_bar:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://christiantietze.de/posts/2022/02/emacs-tab-bar-numbered-tabs/
+  :AUTHOR: Cristiantietze
+  :YEAR-PUBLICATION: 2022
+  :END:
+** SOMEDAY Emacs tabs                                         :emacs:tab_bar:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://jgkamat.gitlab.io/blog/emacs-tabs.html
+  :AUTHOR: jgkamat
+  :YEAR-PUBLICATION: 2018
+  :END:

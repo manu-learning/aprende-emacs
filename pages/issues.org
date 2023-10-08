@@ -1,0 +1,139 @@
+#+TITLE: Issues
+* Issues has been Solved
+** Tags with dash character on Org Mode           :org_mode:dash_character:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.mail-archive.com/emacs-orgmode@gnu.org/msg127182.html
+  :YEAR-PUBLICATION: 2020
+  :END:
+*** Context/Problem
+*** Solution
+** Org Capture Templates add tags         :org_mode:capture_templates:tags:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://www.mail-archive.com/emacs-orgmode@gnu.org/msg142470.html
+  :YEAR-PUBLICATION: 2022
+  :END:
+*** Context/Problem
+*** Solution
+** Difference between tangling and exporting      :org_babel:export:tangle:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://lists.gnu.org/archive/html/emacs-orgmode/2019-09/msg00222.html
+  :YEAR-PUBLICATION: 2019
+  :END:
+*** Context/Problem
+*** Solution
+** How to specify header arguments in orgmode code blocks  :org_mode:tangle:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://emacs.stackexchange.com/a/3806
+  :YEAR-PUBLICATION: 2014
+  :END:
+** How to tangle all the source code blocks inside a sub-tree using properties  :org_mode:tangle:properties:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 6/10
+  :URL: https://emacs.stackexchange.com/a/29932
+  :YEAR-PUBLICATION: 2017
+  :END:
+** How to remove emacs27                                  :emacs27:uninstall:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://github.com/syl20bnr/spacemacs/issues/15896#issuecomment-1397716997
+  :YEAR-PUBLICATION: 2023
+  :END:
+*** Problem/Context
+#+BEGIN_QUOTE
+dpkg: error processing archive /var/cache/apt/archives/emacs28-common_28.1~1.git5a223c7f2e-kk1+20.04_all. deb (–unpack):
+trying to overwrite ‘/usr/include/emacs-module.h’, which is also in package emacs27-common 27.1~1.git86d 8d76aa3-kk2+2004
+
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+#+END_QUOTE
+*** Solution
+#+BEGIN_SRC shell
+  # 1er intento de eliminar emacs27
+  sudo dpkg -P emacs27 emacs27-common
+
+  # suponiendo que nos lanza una excepción de dependencia por emacs27-el
+  sudo dpkg -P emacs27-el
+
+  # 2do intento de eliminar emacs27
+  sudo dpkg -P emacs27-common
+#+END_SRC
+** Install emacs29                                   :emacs29:installation:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: solved
+  :LANGUAGE: english
+  :RATING: 10/10
+  :URL: https://arnesonium.com/2023/07/emacs-29-1-on-ubuntu-22-04-lts
+  :YEAR-PUBLICATION: 2023
+  :END:
+*** Context/Problem
+#+BEGIN_QUOTE
+emacs29 libXaw… configure: error: No X toolkit could be found.
+#+END_QUOTE
+*** Solution
+#+BEGIN_SRC shell
+  cd /tmp \
+&& git clone --depth=1 --single-branch --branch emacs-29 https://github.com/emacs-mirror/emacs.git \
+&& sudo aptitude install -y autoconf make gcc texinfo libgtk-3-dev libxpm-dev \
+     libjpeg-dev libgif-dev libtiff5-dev libgnutls28-dev libncurses5-dev \
+     libjansson-dev libharfbuzz-dev libharfbuzz-bin
+&& cd emacs && ./autogen.sh && ./configure && sudo make install
+#+END_SRC
+* Issues need to be Solved
+** Org Mode Assert Version                                       :org_mode:
+  :PROPERTIES:
+  :SOURCE: non-official
+  :STATUS: unsolved
+  :LANGUAGE: english
+  :RATING: 4/10
+  :URL: https://github.com/syl20bnr/spacemacs/issues/15896#issuecomment-1397716997
+  :YEAR-PUBLICATION: 2023
+  :END:
+*** Context/Problem
+#+BEGIN_QUOTE
+Opening an org file throws following error
+~(invalid-function org-assert-version)~
+#+END_QUOTE
+*** Solution
+#+BEGIN_SRC shell
+  # 1) Remove Org Mode from Emacs
+  cd ~/.emacs.d; rm -rf elpa/28.2/develop/org-9*
+
+  # 2) Start Emacs as -Q mode
+  start emacs with emacs -Q
+#+END_SRC
+
+#+BEGIN_SRC elisp
+  ;; 3) evaluate on emacs (with C-j) the following elisp code, next restart emacs as always
+
+  (require 'package)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+  (setq package-user-dir
+        (expand-file-name "develop"
+                          (expand-file-name emacs-version
+                                            (expand-file-name "elpa"
+                                                              user-emacs-directory))))
+  (package-refresh-contents)
+  (package-install 'org)
+#+END_SRC

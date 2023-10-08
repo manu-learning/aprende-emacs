@@ -1,0 +1,20 @@
+#+TITLE: User's Dot Files
+* Users' Dot Files
+** Emacs initialization code                                 :emacs:org_mode:
+  :PROPERTIES:
+  :RATING: 10/10
+  :URL: https://github.com/howardabrams/dot-files
+  :AUTHOR: Howard Abrams
+  :END:
+** Emacs dotfile                                                    :emacs:
+  :PROPERTIES:
+  :RATING: 10/10
+  :URL: https://github.com/zamansky/dot-emacs
+  :AUTHOR: Mike Zamansky
+  :END:
+** Emacs configuration in org mode                         :emacs:org_mode:
+  :PROPERTIES:
+  :RATING: 10/10
+  :URL: https://github.com/larstvei/dot-emacs
+  :AUTHOR: Lars Tveito
+  :END:
