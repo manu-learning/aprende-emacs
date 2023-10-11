@@ -1,12 +1,25 @@
-SETUP_CONFIG_FILE=config.org
+# TODO: problemas entre la lectura en la subshell de bash de create-new-project
+CONFIG_FILES=init.mk .dir-locals.el
 
-all: emacs-run-tangle create-symbolic-link
+DIRECTORIES=pages articles
+PAGES=articles courses books issues users-dotfiles documentation tasks videos
+ORG_PAGES=$(addprefix pages/,\
+					$(addsuffix .org,$(PAGES)))
 
-emacs-run-tangle:
-	emacs --batch --eval "(require 'org)" --eval '(org-babel-tangle-file "${SETUP_CONFIG_FILE}")'
+$(DIRECTORIES):
+	mkdir --verbose $@ \
+	&& touch $@/.gitkeep
 
-create-symbolic-link:
-	ln --symbolic ${PWD}/templates ~/org-files/
-#	ln --verbose --symbolic ~/org-files/templates/ templates
+$(ORG_PAGES):
+	touch $@
 
-.PHONY: all emacs-run-tangle create-symbolic-link
+init: $(DIRECTORIES) $(ORG_PAGES)
+
+create-new-project:
+	@read -p "Ingrese la ruta del proyecto a crear/configurar: " NEW_PROJECT_PATH; \
+	mkdir --verbose $${NEW_PROJECT_PATH}; \
+	cp --verbose init.mk $${NEW_PROJECT_PATH}/Makefile; \
+	cp --verbose .dir-locals.el $${NEW_PROJECT_PATH}; \
+	make -C $${NEW_PROJECT_PATH} init
+
+.PHONY: init create-new-project
